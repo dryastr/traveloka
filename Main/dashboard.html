@@ -1,0 +1,103 @@
+{%load static%}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Tarveloka Page</title>
+<link rel="shortcut icon" href="{%static "logo.png"}">
+<link rel = "Stylesheet" href = "{% static 'styles.css' %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="content" id="home"> 
+            <nav>
+                <img src="{% static 'logo.png' %}" class="logo" alt="Logo" title="Traveloka Travels">
+                
+                <ul class="navbar">
+                    <li>
+                        <a href="#home">Home</a>
+                        <a href="#visimisi">VisiMisi</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <div class="title">
+                <h1>TRAVELOKA TRAVELS</h1>
+                <p>Plan your trip with us and travel around the world with the most affordable packages!</p>
+                <a href="#" class="button">Register Now!</a>
+            </div>
+        </div>
+    </div>
+        
+    <section class="container" id="visimisi">
+        <div class="text">
+            <h2>VISI MISI</h2>
+        </div>
+        <div class="rowitems">
+            <div class="item">
+                <h2>Visi</h2>
+                <p>Menjadikan traveling lebih mudah, cepat, dan menyenangkan melalui teknologi.</p>
+            </div>
+            <div class="item">
+                <h2>Misi</h2>
+                <p>Menjadi salah satu perusahaan Biro Perjalanan Wisata (Agen Perjalanan) terbaik di Indonesia.</p>
+            </div>
+        </div>
+    </section>
+    <table class="rwd-table m-top">
+        <thead>
+            <tr>
+                <th>Waktu</th>
+                <th>Tujuan</th>
+                <th>Maskapai</th>
+                <th>Penerbangan</th>
+                <th>Terminal / Pintu</th>
+                <th>Keterangan</th>
+                <th>Konter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-th="Waktu">08:00</td>
+                <td data-th="Tujuan">Jakarta (CGK)</td>
+                <td data-th="Maskapai">Garuda Indonesia</td>
+                <td data-th="Penerbangan">GA123</td>
+                <td data-th="Terminal / Pintu">T1 / Pintu 5</td>
+                <td data-th="Keterangan">Berangkat</td>
+                <td data-th="Konter">C12</td>
+            </tr>
+            <tr>
+                <td data-th="Waktu">09:30</td>
+                <td data-th="Tujuan">Surabaya (SUB)</td>
+                <td data-th="Maskapai">Lion Air</td>
+                <td data-th="Penerbangan">JT456</td>
+                <td data-th="Terminal / Pintu">T2 / Pintu 7</td>
+                <td data-th="Keterangan">Berangkat</td>
+                <td data-th="Konter">B6</td>
+            </tr>
+            <tr>
+                <td data-th="Waktu">11:45</td>
+                <td data-th="Tujuan">Bali (DPS)</td>
+                <td data-th="Maskapai">AirAsia</td>
+                <td data-th="Penerbangan">QZ789</td>
+                <td data-th="Terminal / Pintu">T3 / Pintu 10</td>
+                <td data-th="Keterangan">Ditunda</td>
+                <td data-th="Konter">A3</td>
+            </tr>
+            <tr>
+                <td data-th="Waktu">13:20</td>
+                <td data-th="Tujuan">Medan (KNO)</td>
+                <td data-th="Maskapai">Citilink</td>
+                <td data-th="Penerbangan">QG321</td>
+                <td data-th="Terminal / Pintu">T1 / Pintu 3</td>
+                <td data-th="Keterangan">Berangkat</td>
+                <td data-th="Konter">D8</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    </body>
+</html>
